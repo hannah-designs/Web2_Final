@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 <meta charset="UTF8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Beabadoobe Concert</title>
 <link href="styles.css" rel="stylesheet"/>
 </head>
@@ -8,9 +9,9 @@
     <header>
         <nav>
            <div class="nav">
-                <a href="index.html">
-                    <img src="images/bea-logo-star.png"/>
-                </a>
+                <div class="nav-logo">
+                    <a href="index.html"><img src="images/bea-logo-star.png"/> </a>
+                </div>
                 <div class="side-nav">
                     <a href="#">Tickets</a>
                     <a href="#">Shop</a>
@@ -23,95 +24,114 @@
     <main>
         <section class="hero">
             <div class="hero-img">
-            <img src="images/hero-image-bea.png"/>
-            </div>
-            <div class="hero-text">
-            <h4>This Is</h4>
-            <h1>beabadoobee</h1>
-            <button>Stream Now</button>
+                <img src="images/hero-image-bea.png"/>
+            
+                <div class="hero-text">
+                    <h3>This Is</h3>
+                    <h1>beabadoobee</h1>
+                    <button>Stream Now</button>
+                </div>
             </div>
         </section>
         <section>
             <div class="ticket-img">
-            <img src="images/ticket-image.png"/>
-            </div>
-            <div class="ticket-text">
-            <h2>ticket presale</h2>
-            <h4>Available Now</h4>
-            <button class="purchase">Purchase</button>
+                <img src="images/ticket-image.png"/>
+                
+                <div class="ticket-text">
+                    <h2>Ticket Presale</h2>
+                    <h3>Available Now</h3>
+                    <button class="purchase">purchase</button>
+                </div>
             </div>
         </section>
         <section class="tour">
             <div class="tour-img">
                 <img src="images/tour-image.png"/>
-            </div>
-            <div class="tour-text">
-            <h2>Tour Locations</h2>
-            <div class="tour-columns">
-                <div class="column-1">
-                    <p>Los Angeles, CA</p>
-                    <p>Chicago, IL</p>
-                    <p>New York City, NY</p>
-                    <p>Cincinatti, OH</p>
+            
+                <div class="tour-text">
+                    <h2>Tour Locations</h2>
+                    <div class="tour-columns">
+                        <div class="column-1">
+                            <p>los angeles, ca</p>
+                            <p>chicago, il</p>
+                            <p>new york city, ny</p>
+                            <p>cincinatti, oh</p>
+                        </div>
+                        <div class="column-2">
+                            <p>Miami, FL</p>
+                            <p>Charleston, SC</p>
+                            <p>Austin, TX</p>
+                            <p>Nashville, TN</p>
+                        </div>
+                        <div class="column-3">
+                            <p>London, uk</p>
+                            <p>Berlin, Germany</p>
+                            <p>Tokyo, Japan</p>
+                            <p>Seoul, South Korea</p>
+                        </div>
+                    </div>
                 </div>
-                 <div class="column-2">
-                    <p>Miami, FL</p>
-                    <p>Charleston, SC</p>
-                    <p>Austin, TX</p>
-                    <p>Nashville, TN</p>
-                </div>
-                 <div class="column-3">
-                    <p>London, UK</p>
-                    <p>Berlin, Germany</p>
-                    <p>Tokyo, Japan</p>
-                    <p>Seoul, South Korea</p>
-                </div>
-            </div>
             </div>
         </section>
         <section class="merch">
+            <div class="merch-text">
             <h2>Shop Merch</h2>
-            <button>View All</button>
-            <ul>
+            <button>view all</button>
+            </div>
+            <ul class="merch-imgs">
                 <li>
                     <img src="images/bea-cat-zipup.png"/>
-                    <h5>Scribble Cat Zip up <em>$100</em></h5>
+                    <h4>Scribble Cat Zip up</h4>
+                    <h5>$100</h5>
                 </li>
                 <li>
                     <img src="images/bea-tshirt.png"/>
-                    <h5> Star Baby Tee <em>$45</em></h5>
+                    <h4> Star Baby Tee</h4>
+                    <h5>$45</h5>
                 </li>
                 <li>
                     <img src="images/bea-white-hood.png"/>
-                    <h5>Bea Zip Hoodie <em>$120</em></h5>
+                    <h4>Bea Zip Hoodie</h4>
+                    <h5>$120</h5>
                 </li>
             </ul>
         </section>
         <section class="stream">
-            <img src="images/song-image-bea.png">
-            <h3>All I Did Was Dream of You</h3>
-            <h4>Out Now</h4>
-            <button>Listen Today</button>
+            <div class="stream-img">
+                <img src="images/song-image-bea.png">
+                <div class="stream-text">
+                    <h2>All I Did Was Dream of You</h2>
+                    <h3>out now</h3>
+                    <button>Listen Today</button>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
-        <img src="images/footer-texture.png"/>
-        <img src="images/Bea_logo.png"/>
-        <ul class="footer-links">
-            <li>About</li>
-             <li>Merch</li>
-              <li>Stream</li>
-        </ul>
-
-        <ul class="fotter-icons">
-            <li><img src="images/insta-icon.png"> </li>
-            <li><img src="images/tiktok-icon.png"> </li>
-            <li><img src="images/x-icon.png"> </li>
-            <li><img src="images/facebook-icon.png"> </li>
-            <li><img src="images/spotify-icon.png"> </li>
-            <li><img src="images/spotify-icon.png"> </li>
-            <li><img src="images/apple-icon.png"> </li>
-            <li><img src="images/youtube-icon.png"> </li>
-        </ul>
+        <section class="footer">
+            <div class="footer-img">
+              <img src="images/footer-texture.png"/>
+            
+                <div class="footer-text">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/Bea_logo.png"/> </a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#">About</a>
+                        <a href="#">Merch</a>
+                        <a href="#">Stream</a>
+                    </div>
+                </div>
+                <div class="footer-icons">
+                    <img src="images/insta-icon.png"> 
+                    <img src="images/tiktok-icon.png"> 
+                    <img src="images/x-icon.png"> 
+                    <img src="images/facebook-icon.png"> 
+                    <img src="images/spotify-icon.png"> 
+                    <img src="images/apple-icon.png"> 
+                    <img src="images/youtube-icon.png"> 
+                </div>
+            </div>
+        </section>
     </footer>
 </body>
